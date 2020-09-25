@@ -2,7 +2,7 @@ def likes(array):
 
     
     if len(array)== 0 :
-        print('no one likes this item')
+        print('no one like this item')
 
     elif len(array) == 1:
         print(array[0], 'likes this item')
@@ -19,3 +19,4 @@ def likes(array):
 
 
 likes(["Soji", "Samuel", "Jane", "Kelechi", "Peter", "Buhari"])
+likes([])
